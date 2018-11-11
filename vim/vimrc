@@ -1,0 +1,30 @@
+syntax enable
+" For most files used 4 spaces for a tab and expand tabs to spaces
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+" Line numbers
+set number
+" Show info about the current command at the bottom of the screen
+set showcmd
+" Show command options for vim commands by using <Tab>
+set wildmenu
+" Automatically indent
+set autoindent
+set smartindent
+set cindent
+" Show a marker at 80 chars:
+set colorcolumn:80
+" Remap jk to exit insert mode
+ino jk <esc>
+cno jk <c-c>
+" Set folding option
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
+" If in a make file use actual tabs
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+" If in asm use normal tabs
+autocmd FileType asm set noexpandtab shiftwidth=8 softtabstop=0 syntax=nasm
