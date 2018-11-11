@@ -21,6 +21,6 @@ export LC_COLLATE=C
 
 # Virtual Environment Stuff
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Projects/django
+export PROJECT_HOME=$HOME/dev/pythonProjects
 
 alias gettime='python ~/repos/apl/timekeepad/timew_timesheet.py'

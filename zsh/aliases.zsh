@@ -129,3 +129,6 @@ alias kthxbai='halt'
 
 # Manage config files
 alias config='/usr/bin/git --git-dir=/Users/camitzel/.cfg/ --work-tree=/Users/camitzel'
+
+# Voltron executable
+alias voltron='/Users/mitzeca1/Library/Python/2.7/bin/voltron view disasm'

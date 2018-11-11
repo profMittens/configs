@@ -10,3 +10,7 @@ source ~/.zsh/history.zsh
 source ~/.zsh/zsh_hooks.zsh
 source ~/.zsh/colors.zsh
 source ~/.zsh/z.sh
+source /usr/local/bin/virtualenvwrapper.sh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
